@@ -854,6 +854,44 @@
   direction: rtl;
 }
 
+/* Poster Footer */
+.poster-footer {
+  width: 100%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.6875rem;
+  flex-shrink: 0;
+  margin-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.poster-footer .footer-right {
+  display: flex;
+  align-items: center;
+}
+
+.poster-footer .footer-right span {
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.poster-footer .footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.poster-footer .footer-left span {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
 /* Group hover */
 .group:hover .group-hover\:opacity-100 {
   opacity: 1;

@@ -142,31 +142,15 @@ const SlideCanvas = forwardRef<HTMLDivElement, Props>(({ data, theme }, ref) => 
       </div>
 
       {/* التذييل الاحترافي */}
-      <div 
-        className="w-full py-8 px-12 text-white flex justify-between items-center text-[11px] shrink-0 mt-8 border-t border-white/10"
+      <div
+        className="poster-footer w-full py-6 px-10 text-white flex justify-between items-center text-[11px] shrink-0 mt-8 border-t border-white/10"
         style={{ backgroundColor: theme.primary }}
       >
-        <div className="flex items-center gap-8">
-          {data.footer.instagram && (
-            <div className="flex items-center gap-2">
-              <Instagram size={14} className="opacity-80" />
-              <span className="font-bold tracking-tight">{data.footer.instagram}</span>
-            </div>
-          )}
-          {data.footer.linkedin && (
-            <div className="flex items-center gap-2 border-r border-white/20 pr-8">
-              <Linkedin size={14} className="opacity-80" />
-              <span className="font-bold tracking-tight">{data.footer.linkedin}</span>
-            </div>
-          )}
+        <div className="footer-right">
+          <span className="font-bold text-sm">منصة المستثمر الاقتصادية</span>
         </div>
-        <div className="flex items-center gap-4">
-          {data.footer.email && (
-            <div className="flex items-center gap-2 bg-black/10 px-4 py-2 rounded-full border border-white/10">
-              <Mail size={14} className="opacity-80" />
-              <span className="font-mono text-[10px]">{data.footer.email}</span>
-            </div>
-          )}
+        <div className="footer-left">
+          <span className="font-mono font-bold tracking-wider">al-investor.com</span>
         </div>
       </div>
     </div>
