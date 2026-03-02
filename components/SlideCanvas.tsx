@@ -150,12 +150,12 @@ const SlideCanvas = forwardRef<HTMLDivElement, Props>(
 
         {/* التذييل الاحترافي */}
         <div
-          className="poster-footer w-full py-4 px-10 text-white flex justify-between items-center text-[11px] shrink-0 mt-3 border-t border-white/10"
+          className="poster-footer w-full py-2 px-10 text-white flex justify-between items-center text-[10px] shrink-0 mt-3 border-t border-white/10"
           style={{ backgroundColor: theme.primary }}
           dir="rtl"
         >
           <div className="footer-right flex-1 text-right">
-            <span className="font-bold text-sm">منصة المستثمر الاقتصادية</span>
+            <span className="font-bold text-xs">منصة المستثمر الاقتصادية</span>
           </div>
           <div className="footer-left flex-1 text-left" dir="ltr">
             <span className="font-mono font-bold tracking-wider">
